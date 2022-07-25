@@ -19,17 +19,16 @@
 
         .wrap {
             width: 350px;
-            margin: 25px;
+            margin: auto;
+            
         }
 
-        .wrap > h1 {
-            width: 300px;
-            height: 20px;
-            background-color: pink;
-            color: white;
-            padding: 20px;
-            text-align: left;
-            font-weight: bold;
+        h1 {
+           font-size: 16px;
+           font-weight: bold;
+           background-color: pink;
+           color: white;
+           padding: 15px;
         }
 
         .pic {
@@ -38,62 +37,51 @@
             justify-content: center;
             align-items: center;
 
-            letter-spacing: 3px;
-            margin: 30px auto;
-        }
-
-        .pic > h2 {
             color: pink;
-            letter-spacing: 3px;
-            margin-bottom: 10px;
-           
+            width: 250px;
+            letter-spacing: 2px;
+            margin: 30px auto;
         }
 
         .pic > img {
             width: 250px;
-            margin-bottom: 10px;
-
-        }
-
-        .pic > span {
-            color: pink;
-            letter-spacing: 3px;
-            margin-bottom: 10px;
+            margin: 10px;
         }
 
         .name {
+            width: 200px;
             font-size: 24px;
             font-weight: bold;
-            color: pink;
-            border-top: 3px solid pink;
-            border-bottom: 3px solid pink;
+            border-top: 2px solid pink;
+            border-bottom: 2px solid pink;
+
             margin: auto;
-            width: 200px;
+            text-align: center;
+            color: pink;
         }
-                    
 
         .main {
+            margin-top: 30px;
             background-color: pink;
             color: white;
-            border: none;
             padding: 20px;
-            margin-top: 30px;
         }
 
         .title {
             font-size: 20px;
-            text-align: center;
-            margin-bottom: 50px;
+            text-align: center;   
         }
 
         .msg {
+            font-size: 16px;
+            margin-top: 30px;
+            margin-top: 30px;
             margin-bottom: 30px;
+            line-height: 30px;
         }
 
         .place {
             text-align: center;
-            margin-bottom: 10px;
-            margin-top: 20px;
         }
 
         .bottom {
@@ -101,17 +89,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 30px;
         }
 
         .bottom > p {
             color: pink;
+            font-weight: bold;
             margin-bottom: 10px;
+            margin-top: 30px;
         }
 
         .bottom > input {
             width: 250px;
-            margin-bottom: 10px;
+            margin-bottom:10px;
         }
 
         .bottom > textarea {
@@ -123,49 +112,50 @@
         .bottom > button {
             width: 150px;
             height: 40px;
-            background-color: pink;
-            color: white;
+            color:white;
+            font-size: 16px;
             border: none;
             border-radius: 8px;
-            margin-bottom: 10px;
+            background-color: pink;
+            padding-top: 12px;
+            padding-bottom: 12px;
         }
     </style>
 </head>
-
 <body>
     <div class="wrap">
         <h1>영희와 철수의 첫 시작을 축하해주세요</h1>
         <div class="pic">
-            <h2>Save The Date</h2>
+            <h2>Save The Date </h2>
             <img src="wedding.png">
-            <span>12.31.SUNDAY,PM.12:30</span>
+            <span>12.31.SUNDAY.PM.12:30</span>
         </div>
         <div class="name">
             김영희 & 이철수
         </div>
         <div class="main">
-            <p class="title">INVITATION</p>
-            <p class="msg>">
-                서로 다른 두 사람이 만나<br/>
-                사랑으로 하나 되는 자리에<br/>
-                소중한 여러분들을 초대합니다.<br/>
-                기쁠 때나, 슬플 때나<br/>
-                서로를 사랑으로 품으며<br/>
-                행복의 계단을 쌓아가겠습니다.<br/>
-                저희의 첫 시작을 함께 해주신다면<br/>
-                감사한 마음 깊이 간직하며 잘 살겠습니다
-            </p>
+            <p class="title" > INVITATION</p>
+            <P class="msg">
+                서로 다른 두 사람이 만나 <br/>
+                사랑으로 하나 되는 자리에 <br/>
+                소중한 여러분들을 초대합니다. <br/>
+                기쁠 때나, 슬플 때나 <br/>
+                서로를 사랑으로 품으며 <br/>
+                행복의 계단을 쌓아가겠습니다. <br/>
+                저희의 첫 시작을 함께 해주신다면 <br/>
+                감사한 마음 깊이 간직하며 잘 살겠습니다.
+            </P>
             <p class="place">
                 2023. 12. 31. SUN. PM 12:30<br/>
                 스파르타웨딩 르탄홀
             </p>
-        </div>  
+        </div>
         <div class="bottom">
             <p>축하메시지를 남겨주세요</p>
             <input type="text" placeholder="이름">
             <textarea placeholder="메시지를 남겨주세요"></textarea>
             <button>메시지 남기기</button>
-        </div>  
+        </div>
     </div>
 </body>
 </html>
